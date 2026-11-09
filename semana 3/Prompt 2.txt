@@ -1,0 +1,35 @@
+Create a responsive, modern e-commerce landing page for clothing brand "tailwear" with HTML, CSS, java and a working cart.
+
+Color Palette & Fonts
+Neutrals: #000000, #0f0f0f, #262626, #737373, #d4d4d4, #ffffff
+
+Accent Orange: DEFAULT '#ff5500', dark '#cc4400'
+
+Accent Blue: DEFAULT '#3b82f6', subtle '#1e3a8a'
+
+Fonts: sans ('Inter'), display ('UnifrakturMaguntia'), mono ('IBM Plex Mono')
+
+Core Features & Sections
+Header:
+
+Fixed navigation bar with "tailwear" logo in UnifrakturMaguntia font.
+
+Hamburger menu for mobile navigation.
+
+Functional sliding cart drawer showing item count badge, subtotal, item removal, and quantity triggers.
+
+Hero Section:
+
+Background: Huge centered "TAILWEAR" title in UnifrakturMaguntia font.
+
+Foreground: Overlapping cutout image of a black bomber jacket with chrome/metallic tribal graphics matching gothic typography.
+
+Positioning: Overlay jacket on top of text (using absolute positioning / z-index) without fully obscuring title text.
+
+CTA: "Shop Collection" button using tw-orange accent with glow/hover effects.
+
+Catalog & Cart Logic:
+
+Product grid (jacket, oversized tees, cargo pants) pre-loaded with mock items.
+
+Interactive "Add to Cart" functionality updating header badge and cart drawer state dynamically.
